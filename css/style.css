@@ -1,0 +1,73 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    padding: 15px;
+}
+
+/* Sidebar */
+.col-md-3 {
+    padding: 15px;
+}
+
+.list-group-item {
+    border: none;
+    padding: 10px 15px;
+}
+
+/* Product Cards */
+.card {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+/* Cart */
+.table {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.btn-danger {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .col-md-3 {
+        display: none; /* Hide sidebar on small screens */
+    }
+
+    .col-md-9 {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

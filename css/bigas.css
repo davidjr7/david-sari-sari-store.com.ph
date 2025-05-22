@@ -1,0 +1,56 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Auto-sizing grid */
+    justify-content: center;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 320px; /* Fixed height for consistency */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures the image doesn't break the design */
+}
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes sure the image fully covers the card */
+}
+
+.product-card .card-body {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Dark background overlay for readability */
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.product-card h5 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.product-card p {
+    font-size: 14px;
+}
+
+.product-card button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
