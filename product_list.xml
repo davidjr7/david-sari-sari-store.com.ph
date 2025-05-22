@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productList>
+   <product id="001">
+       <name>Organic Coffee Beans</name>
+       <price>450</price>
+       <category>Beverages</category>
+       <image>organic_coffee_beans.jpg</image>
+       <description>Freshly roasted organic Arabica beans.</description>
+   </product>
+   <product id="002">
+       <name>Herbal Tea Pack</name>
+       <price>250</price>
+       <category>Beverages</category>
+       <image>Screenshot (1).png</image>
+       <description>A calming blend of herbs and flowers.</description>
+   </product>
+   <product id="003">
+       <name>Fresh Lettuce (Pack of 2)</name>
+       <price>100</price>
+       <category>Vegetables</category>
+       <image>lettuce.jpg</image>
+       <description>Crisp and organic romaine lettuce.</description>
+   </product>
+   <product id="004">
+       <name>Cherry Tomatoes</name>
+       <price>85</price>
+       <category>Vegetables</category>
+       <image>tomato_fruits.jpg</image>
+       <description>Sweet cherry tomatoes from local farms.</description>
+   </product>
+   <product id="005">
+       <name>Gourmet Olive Oil</name>
+       <price>600</price>
+       <category>Condiments</category>
+       <image>gourmet_olive_oil.jpg</image>
+       <description>Cold-pressed extra virgin olive oil.</description>
+   </product>
+</productList>
+    
